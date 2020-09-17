@@ -264,3 +264,35 @@ li.nav__list-item a.nav__list-item__link:visited {
   display: inline;
   position: relative;
 }
+
+/* ---- ERROR PAGE STYLES ----- */
+
+#errorPage {
+  font-family: "SF Pro Text";
+  text-align: center;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+#errorMessageContainer,
+#errorContainer {
+  border: grey 0.5px solid;
+  margin: 32px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 35%;
+  height: 100vh;
+  position: relative;
+}
