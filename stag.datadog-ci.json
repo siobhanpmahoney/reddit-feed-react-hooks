@@ -1,0 +1,12 @@
+{
+    "apiKey": "527e2f0709966b6f2b35a87e6759a701",
+    "appKey": "651a92bb14fae04305c2481d33e5d26869ef87b6",
+    "datadogSite": "datadoghq.com",
+    "files": "{,!(node_modules)/**/}*.synthetics.json",
+    "global": {
+        "allowInsecureCertificates": true,
+        "startUrl": "https://enapfso5tvcc.x.pipedream.net/",
+        "pollingTimeout": 180000
+    },
+    "subdomain": "siobhan-sandbox"
+}
